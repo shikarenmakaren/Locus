@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Locus</title>
+</head>
+<body> 
+    <header class="header">
+        <div class="header-container container">
+            <img class="header__logo" src="/img/Logo.png" alt="Логотип">
+            <nav class="header__nav">
+                <ul class="header__list list">
+                    <li class="list__item">
+                        <a class="list__link" href="">Home</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="list__link" href="">Contacts</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="list__link" href="">Location</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="list__link" href="">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="button-link" href="#">Sing Up</a>
+        </div>
+    
+        <section class="hero container">    
+            <h2 class="hero__title title">Get the inspiration of interior design here</h2>
+            <p class="hero__subtitle subtitle">
+                architecture not only about engineering, it even lands to art and aesthetics. With us, you will get a residentical design with an extraordinary touch of art.
+            </p>
+            <a class="button-link hero-link" href="#">Let’s go</a>
+        </section>
+    </header>
+
+    <main class="main ">
+        <section class="meaning container">
+            <h2 class="meaning__title title">How it works</h2>
+            <p class="meaning__subtitle subtitle">
+                Spice up your space even simpler than you think
+            </p>
+
+            <div class="meaning__descript descript">
+                <div class="descript__img"></div>
+                <div class="descript__content">
+                    <p class="descript__subtitle">
+                        We provide design and build for commercial building, interior and furniture to improve the better life. 
+                    </p>
+                    <a class="descript__link" href="#">S E E  V I D E O</a>
+                </div> 
+            </div>
+
+            <div class="meaning__visual visual">
+                <div class="visual__img"></div>
+                <div class="visual__content">
+                    <h4 class="visual__title title">
+                        Our mission is to deliver aesthetic visual for your home
+                    </h4>
+                    <p class="visual__subtitle subtitle">
+                        By applying bacis psychology principles, we are going to explain how perception works and how we can use this understanding to maximise the space that we occupy in our homes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects container">
+            <h2 class="projects__title title">Our project</h2>
+            <p class="projects__subtitle subtitle">
+                Introducing our first official project
+            </p>
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <h4 class="project__title">Project Livingroom</h4>
+                    <p class="project__descript">
+                        A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.
+                    </p>
+                    <img class="project__photo" src="/img/project-1.png" alt="Проект жилой комнаты">
+                </li>
+                <li class="projects__item">
+                    <img class="project__photo" src="/img/project-2.png" alt="Проект рабочего пространства">
+                    <h4 class="project__title project__title_reversed">Project workspace</h4>
+                    <p class="project__descript">
+                        A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.
+                    </p>
+                </li>
+                <li class="projects__item">
+                    <h4 class="project__title">Library</h4>
+                    <p class="project__descript">
+                        A simple guide to create the perfect livingroom for . Night Watc works beautifully in a wide gamut of arrangements.
+                    </p>
+                    <img class="project__photo" src="/img/project-3.png" alt="#">
+                </li>
+            </ul>
+        </section>
+        <section class="testimonial container">
+            <h2 class="testimonial__title title">Testimonial</h2>
+            <ul class="testimonial__list logo__list">
+                <li class="logo__item">
+                    <img class="logo__img klamby" src="/img/klamby.png" alt="klamby">
+                </li>
+                <li class="logo__item">
+                    <img class="logo__img mayoutfit" src="/img/mayoutfit.png" alt="mayoutfit">
+                </li>
+                <li class="logo__item">
+                    <img class="logo__img zalora" src="/img/zalora.png" alt="zalora">
+                </li>
+                <li class="logo__item">
+                    <img class="logo__img geulis" src="/img/geulis.png" alt="geulis">
+                </li>
+            </ul>
+
+            <div class="review container">
+                <div class="review__img"></div>
+                <div class="review__content">
+                    <ul class="review__list">
+                        <li class="review__item">
+                            <span class="review__item_accent">105</span> project done
+                        </li>
+                        <li class="review__item">
+                            <span class="review__item_accent">12</span> years of experience
+                        </li>
+                        <li class="review__item">
+                            <span class="review__item_accent">10+</span> big company partnership
+                        </li>
+                    </ul>
+    
+                    <p class="review__descript">
+                        "Not able to tell you how happy I am with interior design. Interior design has completely surpassed our expectations. Interior design saved my usiness. Interior design is worth much more than I paid." 
+                        <span class="review__descript_accent">- Roscoe</span>
+                    </p>
+                </div>
+                
+
+                <!-- <span class="test">“</span> -->
+            </div>
+        </section>
+
+        <section class="contacts container">
+            <div class="contacts__naming">
+                <h2 class="contacts__title title">Contact Us</h2>
+                <p class="contacts__descript subtitle">
+                    Have any questions? Want help before getting started?
+                </p>
+            </div>
+            
+
+            <form class="contacts__form" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST">
+                <input class="contacts__input form-name" type="text" placeholder="Full name" name="contact">
+                <input class="contacts__input form-email" type="email" placeholder="Email address" name="contact">
+                <input class="contacts__input form-text" type="text" name="contact" placeholder="Description">
+                <button class="contacts__button" type="button">Send now</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
